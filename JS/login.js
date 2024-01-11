@@ -20,7 +20,8 @@ let Create=  async ()=>{
     }).then(res =>res.json())
     .then(data =>console.log(data))
     .catch(err => console.log(err));
-}
+        alert("Signup successful! You can now login.");
+  }
 localStorage.setItem('logeduser',false);
   
 
