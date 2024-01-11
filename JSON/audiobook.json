@@ -1,0 +1,432 @@
+{
+  "audio": [
+    {
+      "id": 1,
+      "title": "Ikigai",
+      "author": "Héctor García, Francesc Miralles",
+      "img": "https://m.media-amazon.com/images/I/511HccWipML._SL500_.jpg",
+      "aud": "/AUDIO/sample-12s.mp3"
+    },
+    {
+      "id": 2,
+      "title": "The Psychology of Money",
+      "author": "Morgan Housel",
+      "img": "https://m.media-amazon.com/images/I/51jRBz6Ug3L._SL500_.jpg",
+      "aud": "/AUDIO/sample-12s.mp3"
+    },
+    {
+      "id": 3,
+      "title": "Karma: A Yogi's Guide to Crafting Your Own Destiny",
+      "author": "Sadhguru, Leslie Howard",
+      "img": "https://m.media-amazon.com/images/I/51nY2HMNVHL._SL500_.jpg",
+      "aud": "/AUDIO/sample-12s.mp3"
+    },
+    {
+      "id": 4,
+      "title": "A Promised Land",
+      "author": "Barack Obama",
+      "img": "https://m.media-amazon.com/images/I/41cb6VcDSUL._SL500_.jpg",
+      "aud": "/AUDIO/sample-12s.mp3"
+    },
+    {
+      "id": 5,
+      "title": "json-server",
+      "author": "typicode",
+      "img": "https://m.media-amazon.com/images/I/514sscPA15L._SL320_.jpg",
+      "aud": "/AUDIO/sample-12s.mp3"
+    },
+    {
+      "id": 5,
+      "title": "Can't Hurt Me",
+      "author": " David Goggins",
+      "img": "https://m.media-amazon.com/images/I/51c4H3VBciL._SL500_.jpg",
+      "aud": "/AUDIO/sample-12s.mp3"
+    },
+    {
+      "id": 6,
+      "title": "Harry Potter and the Philosopher's Stone, Book 1",
+      "author": "J.K. Rowling",
+      "img": "https://m.media-amazon.com/images/I/51DoG9xDIKL._SL500_.jpg",
+      "aud": "/AUDIO/sample-12s.mp3"
+    },
+    {
+      "id": 7,
+      "title": "Hitchhiker's Guide to the Galaxy",
+      "author": "Douglas Adams",
+      "img": "https://m.media-amazon.com/images/I/51gSJR1+82L._SL500_.jpg",
+      "aud": "/AUDIO/sample-12s.mp3"
+    },
+    {
+      "id": 8,
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "img": "https://m.media-amazon.com/images/I/517pfctTa9L._SL500_.jpg",
+      "aud": "/AUDIO/sample-12s.mp3"
+    },
+    {
+      "id": 9,
+      "title": "The Midnight Library",
+      "author": " Matt Haig",
+      "img": "https://m.media-amazon.com/images/I/41i24QnKhgL._SL500_.jpg",
+      "aud": "/AUDIO/sample-12s.mp3"
+    },
+    {
+      "id": 10,
+      "title": "Raavan",
+      "author": " Amish Tripathi",
+      "img": "https://m.media-amazon.com/images/I/51DINvcIv1L._SL500_.jpg",
+      "aud": "/AUDIO/sample-12s.mp3"
+    },
+    {
+      "id": 10,
+      "title": "Raavan",
+      "author": " Amish Tripathi",
+      "img": "https://m.media-amazon.com/images/I/51DINvcIv1L._SL500_.jpg",
+      "aud": "/AUDIO/sample-12s.mp3"
+    }
+  ],
+  "podcasts": [
+    {
+      "id": 1,
+      "title": "Main Hi Kahaani Hoon",
+      "author": " Major Akhill Pratap (v)",
+      "img": "https://m.media-amazon.com/images/I/51cgyngBm7L._SL500_.jpg",
+      "aud": "/AUDIO/sample-12s.mp3"
+    },
+    {
+      "id": 2,
+      "title": "Deepak Chopra's Mind Body Zone: Living Outside the Box",
+      "author": " Deepak Chopra",
+      "img": "https://m.media-amazon.com/images/I/51cLsNVUEaL._SL500_.jpg",
+      "aud": "/AUDIO/sample-12s.mp3"
+    },
+    {
+      "id": 3,
+      "title": "What Do I Do?: Mental Health and Me",
+      "author": "Kelly Holmes",
+      "img": "https://m.media-amazon.com/images/I/418d+AAbqJL._SL500_.jpg",
+      "aud": "/AUDIO/sample-12s.mp3"
+    },
+    {
+      "id": 4,
+      "title": "It Takes Guts: Introduction to Gut Health",
+      "author": " Tim Anderson, Giles Yeo",
+      "img": "https://m.media-amazon.com/images/I/51SOs3wVd2L._SL500_.jpg",
+      "aud": "/AUDIO/sample-12s.mp3"
+    },
+    {
+      "id": 5,
+      "title": "Stephen Fry's Victorian Secrets",
+      "author": " Stephen Fry, John Woolf, Nick Baker",
+      "img": "https://m.media-amazon.com/images/I/512rTrWOeJL._SL500_.jpg",
+      "aud": "/AUDIO/sample-12s.mp3"
+    },
+    {
+      "id": 5,
+      "title": "The 9 Step Negativity Detox",
+      "author": " Domonique Bertolucci",
+      "img": "https://m.media-amazon.com/images/I/51xTW3+OzjL._SL500_.jpg",
+      "aud": "/AUDIO/sample-12s.mp3"
+    },
+    {
+      "id": 6,
+      "title": "Zen: A Way of Life",
+      "author": " Om Swami",
+      "img": "https://m.media-amazon.com/images/I/51geMaEV8OL._SL500_.jpg",
+      "aud": "/AUDIO/sample-12s.mp3"
+    },
+    {
+      "id": 7,
+      "title": "In the Habit: Introduction to Changing our Behaviour",
+      "author": "Ash Ranpura, Alice Fraser",
+      "img": "https://m.media-amazon.com/images/I/51oszqe7u8L._SL500_.jpg",
+      "aud": "/AUDIO/sample-12s.mp3"
+    },
+    {
+      "id": 8,
+      "title": "Think Like a Spy",
+      "author": " Tazeen Ahmad, LaRae Quy, Jason Hanson, James",
+      "img": "https://m.media-amazon.com/images/I/51u13sfEauL._SL500_.jpg",
+      "aud": "/AUDIO/sample-12s.mp3"
+    },
+    {
+      "id": 9,
+      "title": "The Career Change Coach",
+      "author": " Selina Barker",
+      "img": "https://m.media-amazon.com/images/I/51BesuRPY+L._SL500_.jpg",
+      "aud": "/AUDIO/sample-12s.mp3"
+    },
+    {
+      "id": 10,
+      "title": "Get Happy: Introduction to Happiness",
+      "author": "Michelle Gielan, Oliver Burkeman",
+      "img": "https://m.media-amazon.com/images/I/51qRxFM1q2L._SL500_.jpg",
+      "aud": "/AUDIO/sample-12s.mp3"
+    },
+    {
+      "id": 11,
+      "title": "Get Happy: Introduction to Happiness",
+      "author": "Michelle Gielan, Oliver Burkeman",
+      "img": "https://m.media-amazon.com/images/I/51qRxFM1q2L._SL500_.jpg",
+      "aud": "/AUDIO/sample-12s.mp3"
+    }
+  ],
+  "audioorpodcasts": [
+    {
+      "id": 1,
+      "title": "Ikigai",
+      "author": "Héctor García, Francesc Miralles",
+      "img": "https://m.media-amazon.com/images/I/511HccWipML._SL500_.jpg",
+      "aud": "/AUDIO/sample-12s.mp3"
+    },
+    {
+      "id": 2,
+      "title": "The Psychology of Money",
+      "author": "Morgan Housel",
+      "img": "https://m.media-amazon.com/images/I/51jRBz6Ug3L._SL500_.jpg",
+      "aud": "/AUDIO/sample-12s.mp3"
+    },
+    {
+      "id": 3,
+      "title": "Karma: A Yogi's Guide to Crafting Your Own Destiny",
+      "author": "Sadhguru, Leslie Howard",
+      "img": "https://m.media-amazon.com/images/I/51nY2HMNVHL._SL500_.jpg",
+      "aud": "/AUDIO/sample-12s.mp3"
+    },
+    {
+      "id": 4,
+      "title": "A Promised Land",
+      "author": "Barack Obama",
+      "img": "https://m.media-amazon.com/images/I/41cb6VcDSUL._SL500_.jpg",
+      "aud": "/AUDIO/sample-12s.mp3"
+    },
+    {
+      "id": 5,
+      "title": "Can't Hurt Me",
+      "author": " David Goggins",
+      "img": "https://m.media-amazon.com/images/I/51c4H3VBciL._SL500_.jpg",
+      "aud": "/AUDIO/sample-12s.mp3"
+    },
+    {
+      "id": 6,
+      "title": "Harry Potter and the Philosopher's Stone, Book 1",
+      "author": "J.K. Rowling",
+      "img": "https://m.media-amazon.com/images/I/51DoG9xDIKL._SL500_.jpg",
+      "aud": "/AUDIO/sample-12s.mp3"
+    },
+    {
+      "id": 7,
+      "title": "Hitchhiker's Guide to the Galaxy",
+      "author": "Douglas Adams",
+      "img": "https://m.media-amazon.com/images/I/51gSJR1+82L._SL500_.jpg",
+      "aud": "/AUDIO/sample-12s.mp3"
+    },
+    {
+      "id": 8,
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "img": "https://m.media-amazon.com/images/I/517pfctTa9L._SL500_.jpg",
+      "aud": "/AUDIO/sample-12s.mp3"
+    },
+    {
+      "id": 9,
+      "title": "The Midnight Library",
+      "author": " Matt Haig",
+      "img": "https://m.media-amazon.com/images/I/41i24QnKhgL._SL500_.jpg",
+      "aud": "/AUDIO/sample-12s.mp3"
+    },
+    {
+      "id": 10,
+      "title": "Raavan",
+      "author": " Amish Tripathi",
+      "img": "https://m.media-amazon.com/images/I/51DINvcIv1L._SL500_.jpg",
+      "aud": "/AUDIO/sample-12s.mp3"
+    },
+    {
+      "id": 10,
+      "title": "Raavan",
+      "author": " Amish Tripathi",
+      "img": "https://m.media-amazon.com/images/I/51DINvcIv1L._SL500_.jpg",
+      "aud": "/AUDIO/sample-12s.mp3"
+    },
+    {
+      "id": 11,
+      "title": "Main Hi Kahaani Hoon",
+      "author": " Major Akhill Pratap (v)",
+      "img": "https://m.media-amazon.com/images/I/51cgyngBm7L._SL500_.jpg",
+      "aud": "/AUDIO/sample-12s.mp3"
+    },
+    {
+      "id": 12,
+      "title": "Deepak Chopra's Mind Body Zone: Living Outside the Box",
+      "author": " Deepak Chopra",
+      "img": "https://m.media-amazon.com/images/I/51cLsNVUEaL._SL500_.jpg",
+      "aud": "/AUDIO/sample-12s.mp3"
+    },
+    {
+      "id": 13,
+      "title": "What Do I Do?: Mental Health and Me",
+      "author": "Kelly Holmes",
+      "img": "https://m.media-amazon.com/images/I/418d+AAbqJL._SL500_.jpg",
+      "aud": "/AUDIO/sample-12s.mp3"
+    },
+    {
+      "id": 14,
+      "title": "It Takes Guts: Introduction to Gut Health",
+      "author": " Tim Anderson, Giles Yeo",
+      "img": "https://m.media-amazon.com/images/I/51SOs3wVd2L._SL500_.jpg",
+      "aud": "/AUDIO/sample-12s.mp3"
+    },
+    {
+      "id": 15,
+      "title": "Stephen Fry's Victorian Secrets",
+      "author": " Stephen Fry, John Woolf, Nick Baker",
+      "img": "https://m.media-amazon.com/images/I/512rTrWOeJL._SL500_.jpg",
+      "aud": "/AUDIO/sample-12s.mp3"
+    },
+    {
+      "id": 16,
+      "title": "The 9 Step Negativity Detox",
+      "author": " Domonique Bertolucci",
+      "img": "https://m.media-amazon.com/images/I/51xTW3+OzjL._SL500_.jpg",
+      "aud": "/AUDIO/sample-12s.mp3"
+    },
+    {
+      "id": 17,
+      "title": "Zen: A Way of Life",
+      "author": " Om Swami",
+      "img": "https://m.media-amazon.com/images/I/51geMaEV8OL._SL500_.jpg",
+      "aud": "/AUDIO/sample-12s.mp3"
+    },
+    {
+      "id": 18,
+      "title": "In the Habit: Introduction to Changing our Behaviour",
+      "author": "Ash Ranpura, Alice Fraser",
+      "img": "https://m.media-amazon.com/images/I/51oszqe7u8L._SL500_.jpg",
+      "aud": "/AUDIO/sample-12s.mp3"
+    },
+    {
+      "id": 19,
+      "title": "Think Like a Spy",
+      "author": " Tazeen Ahmad, LaRae Quy, Jason Hanson, James",
+      "img": "https://m.media-amazon.com/images/I/51u13sfEauL._SL500_.jpg",
+      "aud": "/AUDIO/sample-12s.mp3"
+    },
+    {
+      "id": 20,
+      "title": "The Career Change Coach",
+      "author": " Selina Barker",
+      "img": "https://m.media-amazon.com/images/I/51BesuRPY+L._SL500_.jpg",
+      "aud": "/AUDIO/sample-12s.mp3"
+    }
+  ],
+  "bestsel": [
+    {
+      "id": 1,
+      "title": "Ikigai",
+      "author": "Héctor García, Francesc Miralles",
+      "img": "https://m.media-amazon.com/images/I/511HccWipML._SL500_.jpg",
+      "aud": "/AUDIO/sample-12s.mp3"
+    },
+    {
+      "id": 2,
+      "title": "The Psychology of Money",
+      "author": "Morgan Housel",
+      "img": "https://m.media-amazon.com/images/I/51jRBz6Ug3L._SL500_.jpg",
+      "aud": "/AUDIO/sample-12s.mp3"
+    },
+    {
+      "id": 3,
+      "title": "Karma: A Yogi's Guide to Crafting Your Own Destiny",
+      "author": "Sadhguru, Leslie Howard",
+      "img": "https://m.media-amazon.com/images/I/51nY2HMNVHL._SL500_.jpg",
+      "aud": "/AUDIO/sample-12s.mp3"
+    },
+    {
+      "id": 4,
+      "title": "A Promised Land",
+      "author": "Barack Obama",
+      "img": "https://m.media-amazon.com/images/I/41cb6VcDSUL._SL500_.jpg",
+      "aud": "/AUDIO/sample-12s.mp3"
+    },
+    {
+      "id": 5,
+      "title": "json-server",
+      "author": "typicode",
+      "img": "https://m.media-amazon.com/images/I/514sscPA15L._SL320_.jpg",
+      "aud": "/AUDIO/sample-12s.mp3"
+    },
+    {
+      "id": 5,
+      "title": "Can't Hurt Me",
+      "author": " David Goggins",
+      "img": "https://m.media-amazon.com/images/I/51c4H3VBciL._SL500_.jpg",
+      "aud": "/AUDIO/sample-12s.mp3"
+    },
+    {
+      "id": 6,
+      "title": "Zen: A Way of Life",
+      "author": " Om Swami",
+      "img": "https://m.media-amazon.com/images/I/51geMaEV8OL._SL500_.jpg",
+      "aud": "/AUDIO/sample-12s.mp3"
+    },
+    {
+      "id": 7,
+      "title": "In the Habit: Introduction to Changing our Behaviour",
+      "author": "Ash Ranpura, Alice Fraser",
+      "img": "https://m.media-amazon.com/images/I/51oszqe7u8L._SL500_.jpg",
+      "aud": "/AUDIO/sample-12s.mp3"
+    },
+    {
+      "id": 8,
+      "title": "Think Like a Spy",
+      "author": " Tazeen Ahmad, LaRae Quy, Jason Hanson, James",
+      "img": "https://m.media-amazon.com/images/I/51u13sfEauL._SL500_.jpg",
+      "aud": "/AUDIO/sample-12s.mp3"
+    },
+    {
+      "id": 9,
+      "title": "The Career Change Coach",
+      "author": " Selina Barker",
+      "img": "https://m.media-amazon.com/images/I/51BesuRPY+L._SL500_.jpg",
+      "aud": "/AUDIO/sample-12s.mp3"
+    }
+  ],
+  "userdetails": [
+    {
+      "user": "guntu",
+      "password": "karam",
+      "email": "mb",
+      "Dob": "19-12-2024",
+      "id": 1
+    },
+    {
+      "user": "asdcvdv",
+      "password": "dvdzvxv",
+      "email": "xvvf",
+      "Dob": "2024-01-12",
+      "id": 2
+    },
+    {
+      "user": "cdcdc",
+      "password": "dcdcd",
+      "email": "dcdcd",
+      "Dob": "2024-01-04",
+      "id": 3
+    },
+    {
+      "user": "munna",
+      "password": "munna",
+      "email": "munna",
+      "Dob": "2024-01-05",
+      "id": 4
+    },
+    {
+      "user": "varshith",
+      "password": "bunny",
+      "email": "bunny@gmail.com",
+      "Dob": "2024-01-06",
+      "id": 5
+    }
+  ]
+}

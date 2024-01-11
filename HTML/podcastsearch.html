@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/CSS/audible.css">
+</head>
+
+<body>
+    <header>
+
+        <div class="top-nav">
+            <a href="" class="help">Help</a>
+            <p></p>
+            <a href="login.html" class="signin">Sign in</a>
+            <div id="userProfile"></div>
+
+        </div>
+        <nav>
+            <div class="logo">
+                <img src="/img/audible_logo._CB490888215_.svg" alt="">
+            </div>
+            <div class="main-menu">
+                <ul class="list">
+                    <li class="menu-item"><a href="/HTML/audible.html">Home</a></li>
+
+                    <li class="menu-item"><a href="/HTML/podcasts.html" onclick="getPods();">Podcasts</a></li>
+                    <li class="menu-item"><a href="/HTML/audiobook.html" onclick="getDetails();">Audio Books</a></li>
+                </ul>
+            </div>
+            <div class="form">
+
+
+                <label for="searchInput"></label>
+                <input type="text" id="searchInput" oninput="searchBooks1()" placeholder="Enter book name">
+                
+                <div id="bookList" style="background-color: aqua;">
+                    <!-- Display matching books based on search -->
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="podmatchingtitle"></div>
+
+    <script>
+        const quarString = window.location.search;
+
+        const urlParams = new URLSearchParams(quarString);
+        let searchParam = urlParams.get('book');
+        console.log(searchParam);
+        let audioURL = "http://localhost:3000/podcasts";
+
+        let ress1;
+        let b = async () => {
+            ress1 = await fetch(audioURL);
+            let books = await ress1.json();
+            let row = '';
+            for (let i = 0; i < books.length; i++) {
+                if (searchParam === books[i].title) {
+                    row = `<div style="display:flex; flex-direction:column; align-items:center; height:100vh; justify-content:center">
+                    <div style="margin: 10px;">
+                        <img src="${books[i].img}" width="200px" height="200px"/>
+                        <audio controls style="margin-top: 5px; width: 200px;"> <source src="${books[i].aud}  "/></audio>
+                    </div>`;
+                }
+            }
+            document.getElementById('podmatchingtitle').innerHTML = row;
+        }
+        b();
+    </script>
+    <footer>
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer-row">
+                        <p>@copyright @2023 Audible <span></span></p>
+                        <a href="">Privacy Policy <span></span></a>
+                        <a href="">India (English)</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="/JS/podcastsearch.js"></script>
+</body>
+
+</html>
