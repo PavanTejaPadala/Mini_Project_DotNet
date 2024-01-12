@@ -434,6 +434,12 @@
       "email": "pavanteja@gmail.com",
       "Dob": "2001-11-26",
       "id": 6
+    },
+    {
+      "user": "",
+      "password": "1234567",
+      "email": "",
+      "id": 7
     }
   ]
 }

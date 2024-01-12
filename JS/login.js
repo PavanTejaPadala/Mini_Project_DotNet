@@ -1,6 +1,5 @@
 
 
-
 //------------Create-----------------
 const logurl = "http://localhost:3000/userdetails";
 
@@ -17,6 +16,7 @@ let Create=  async ()=>{
     headers:{
         "Content-type":"application/json ; charset=UTF-8"
     }
+    
     }).then(res =>res.json())
     .then(data =>console.log(data))
     .catch(err => console.log(err));
@@ -61,11 +61,11 @@ let getdata11 = async ()=> {
       const mainContent = await mypage.text();
 
       document.documentElement.innerHTML = mainContent;
-    //   if(localStorage.getItem('logeduser')){
-    //     document.getElementById("myprofile_main").style.display = "block";
-    //     document.getElementById("signin_main").style.display = "none";
+      document.getElementById("signmain").style.display = "none";
+        document.getElementById("profilemain").style.display ="block";
+        
     //     document.getElementById("browse").style.display="block";
-    //     }
+        
       
     } else {
       alert("Wrong Credentials");
@@ -75,6 +75,19 @@ let getdata11 = async ()=> {
 
   
     
+ let show = async ()=> {
+    dataId=localStorage.getItem("dataId");
+    respo = await axios.get(`${logurl}/${dataId}`);
+    // data1 = await respo.json();
+
+   let a= document.getElementById("d-name");
+   a.innerHTML= "<b>"+"Name  :   "+"</b>" +respo.data.user;
+   document.getElementById("d-email").innerHTML="<b>"+"Email-id  :   "+"</b>" +respo.data.email;
+   document.getElementById("d-num").innerHTML= "<b>"+"DOB  :   "+"</b>" +respo.data.Dob;
+
+ }
+
+ show();
 
 
 
@@ -83,42 +96,23 @@ let getdata11 = async ()=> {
 
 // ----------------------Update-----------------------
 
-// console.log(dataId)
-//     let Update=  ()=>{
-//         dataId=localStorage.getItem("dataId");
-
-//         // alert(dataId);
-//         fetch(`${url}/${dataId}`,{
-//         method:'PUT',
-//         body:JSON.stringify({
-//             user : document.getElementById("Cname").value,
-//             password: document.getElementById("Cpwd").value,
-//             email: document.getElementById("Cemail").value,
-//             mobile_no:document.getElementById("Cnumber").value,
+console.log(dataId)
+    let Update= ()=>{
+        dataId=localStorage.getItem("dataId");
+        // alert(dataId);
+        fetch(`${logurl}/${dataId}`,{
+        method:'PUT',
+        body:JSON.stringify({
+            user : document.getElementById("changeusername").value,
+            password: document.getElementById("changepassword").value,
+            email: document.getElementById("changeemail").value
             
-//         }),
+        }),
         
-//         headers:{
-//             "Content-type":"application/json ; charset=UTF-8"
-//         }
-//         }).then(res =>res.json()).then(data =>console.log(data));
-//         }
+        headers:{
+            "Content-type":"application/json ; charset=UTF-8"
+        }
+        }).then(res =>res.json()).then(data =>console.log(data));
+        }
     
-     
-//  ///-------------VIEW------------
-
-//  let show = async ()=> {
-//     dataId=localStorage.getItem("dataId");
-//     respo = await axios.get(`${url}/${dataId}`);
-//     // data1 = await respo.json();
-
-//    let a= document.getElementById("d-name");
-//    a.innerText= respo.data.user;
-//    document.getElementById("d-email").innerText=respo.data.email;
-//    document.getElementById("d-num").innerText=respo.data.mobile_no;
-
-//  }
-
-//  show();
-
-
+ 

@@ -20,12 +20,14 @@
         <div class="top-nav">
             <a href="" class="help">Help</a>
             <p></p>
-            <a href="login.html" class="signin">Sign in</a>
+            <li id="signmain" style="display: block;"><a href="login.html" class="signin">Sign in</a></li>
+            <li id="profilemain" style="display: none;"><a href="dashboard.html">My Profile</a></li>
+
 <div id="userProfile"></div>
         </div>
         <nav>
             <div class="logo">
-                <img src="/img/audible_logo._CB490888215_.svg" alt="">
+                <img src="../img/logomain.png" alt="">
             </div>
             <div class="main-menu">
                 <ul class="list">
@@ -41,7 +43,7 @@
                 <label for="searchInput"></label>
                 <input type="text"  id="searchInput" oninput="searchBooks()" placeholder="Enter book name" >
                 
-                <div id="bookList" style="background-color: aqua;">
+                <div id="bookList" style="background-color: rgba(232, 231, 231);">
                 </div>
 
 </div>
