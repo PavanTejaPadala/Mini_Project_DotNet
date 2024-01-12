@@ -365,3 +365,20 @@ footer hr{
    position: relative;
    float: right;
 }
+
+
+.image-container {
+   display: flex;
+   overflow: hidden;
+   margin-top: 1rem;
+}
+
+.image-container img {
+   width: 100%;
+   height: auto;
+   transition: transform 0.5s ease-out;
+}
+
+.image-container img:hover {
+   transform: translateY(-15px);
+}

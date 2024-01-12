@@ -15,7 +15,7 @@ let getPods = async () => {
                 for (let j = 0; j < columnsPerRow && i + j < data.length; j++) {
                     const values = data[i + j];
                     row += `
-                        <div style="margin: 10px;">
+                        <div class="image-container" style="margin: 10px;">
                             <img src="${values.img}" width="200px" height="200px"/>
                             <audio controls style="margin-top: 5px; width: 200px;"> <source src="${values.aud}  "/></audio>
                         </div>`;
